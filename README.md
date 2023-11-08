@@ -1,6 +1,21 @@
 # 📲 모바일 프로그래밍 안드로이드 프로젝트
 
+프로젝트 필수 구현 사항
+
+- 3개 이상 액티비티로 구현
+
+- 커스텀 뷰 및 이것에 대한 이벤트 처리 
+
+- 옵션, 컨텍스트, 팝업 및 대화상자 중 택2
+
+- 어댑터 뷰
+
+- 인텐트
+
+- 서비스와 방송 수신자 중 택1
+
 개발기간 [2021.11.10 ~ 2021.12.07]
+
 
 ## ⚡ 기술 스택
 <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white">
