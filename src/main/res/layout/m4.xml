@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".m4">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ContactActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="149dp"
+            android:layout_height="185dp"
+            app:srcCompat="@drawable/ic_image" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0E0"
+            android:gravity="center"
+            android:text="* 이름 |  김강북"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0E0FF"
+            android:gravity="center"
+            android:text="* 소속대학 |  공과대학"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/college"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0FF"
+            android:gravity="center"
+            android:text="* 전공 |  건축공학과"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/major"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0FFE0"
+            android:gravity="center"
+            android:text="* 학년 |  2학년"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="388dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="60dp"
+            android:text="해시태그로 자유롭게 본인을 소개해주세요 :)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hash"
+            android:layout_marginTop="-10dp"
+            android:ems="10"
+            android:text="#이런식으로 #멘티도 #추가할수있다"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduce"
+            android:layout_marginTop="44dp"
+            android:text="공지 º 알림"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="400dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/alar"
+            android:layout_marginTop="12dp"
+            android:text="ㅇㅇㅇ" />
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="-2dp"
+            android:text="         프로필 사진" />
+
+        <Button
+            android:id="@+id/btn_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notice"
+            android:layout_marginTop="27dp"
+            android:text="대화 신청"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

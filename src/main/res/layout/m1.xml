@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".m1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ContactActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="203dp"
+            app:srcCompat="@drawable/m9" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0E0"
+            android:gravity="center"
+            android:text="* 이름 |  김멘토"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0E0FF"
+            android:gravity="center"
+            android:text="* 소속대학 |  소프트웨어융합대학"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/college"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0FF"
+            android:gravity="center"
+            android:text="* 전공 |  컴퓨터정보공학"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/major"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0FFE0"
+            android:gravity="center"
+            android:text="* 학년 |  4학년"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="388dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="60dp"
+            android:text="해시태그로 자유롭게 본인을 소개해주세요 :)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hash"
+            android:layout_marginTop="-10dp"
+            android:ems="10"
+            android:text="#졸업예정자 #막학기 #무엇이든_물어보살 #광운대맛집정복 #자취n년차 #꿀팁전수"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduce"
+            android:layout_marginTop="44dp"
+            android:text="공지 º 알림"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alar"
+            android:layout_marginTop="12dp"
+            android:text="4년간의 대학생활의 끝을 향해 가고 있는 4학년 컴정공 학생입니다. 대학교에 막 입학한 새내기분들이나 우리학교에 대해 알고싶은 것이 있으시다면 저에게 물어보면 웬만한건 다 대답해줄 수 있어요! 학교에 애정이 남다른 선배로서 후배들이 질문하면 뭐든 친절하게 알려줄게요 " />
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="-2dp"
+            android:text="         프로필 사진" />
+
+        <Button
+            android:id="@+id/btn_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notice"
+            android:layout_marginTop="27dp"
+            android:text="대화 신청"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

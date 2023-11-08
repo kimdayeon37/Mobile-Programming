@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".m3">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ContactActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="203dp"
+            app:srcCompat="@drawable/n3" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0E0"
+            android:gravity="center"
+            android:text="* 이름 |  김멘티"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0E0FF"
+            android:gravity="center"
+            android:text="* 소속대학 |  경영대학"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/college"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="23dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#FFE0FF"
+            android:gravity="center"
+            android:text="* 전공 | 경영학부"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/major"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:background="#E0FFE0"
+            android:gravity="center"
+            android:text="* 학년 |  1학년"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="388dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="60dp"
+            android:text="해시태그로 자유롭게 본인을 소개해주세요 :)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hash"
+            android:layout_marginTop="-1dp"
+            android:ems="10"
+            android:text="#새내기캠퍼스_적응중 #학구열높음 #코딩하는_문과생 #정보융합학부 #복수전공_예정"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/alar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduce"
+            android:layout_marginTop="44dp"
+            android:text="공지 º 알림"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alar"
+            android:layout_marginTop="12dp"
+            android:text="안녕하세요! 저는 21학번 경영대에 재학중인 새내기입니다.
+            제가 코딩에 관심이 많아 2학년부터 정보융합학부를 복수전공할 예정이라 정융선배님들의 조언을 듣고 싶습니다! 제가 관심 있는 언어는 파이썬이고 같이 코딩 공부할 사람 환영해요" />
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="-2dp"
+            android:text="         프로필 사진" />
+
+        <Button
+            android:id="@+id/btn_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notice"
+            android:layout_marginTop="27dp"
+            android:text="대화 신청"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

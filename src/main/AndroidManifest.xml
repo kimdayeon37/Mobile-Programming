@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kwin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KWIN">
+
+        <activity
+            android:name=".MultiPageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="멘토친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".BmainActivity"
+            android:label="멘티친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Add"
+            android:label="멘토등록"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Bdd"
+            android:label="멘티등록"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".m1"
+            android:label="멘토친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".m2"
+            android:label="멘토친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".m3"
+            android:label="멘티친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".m4"
+            android:label="멘티친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".AddmainActivity"
+            android:label="멘토친구"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".BddmainActivity"
+            android:label="멘티친구"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+
+</manifest>
